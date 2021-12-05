@@ -1,0 +1,77 @@
+body, html {
+    background-color: grey;
+    height:100%;
+    margin:0px;
+}
+nav li{
+    display: inline;
+    margin:25px;
+}
+
+nav ul{
+    background-color: grey;
+    margin:0;
+    width:100%;
+    padding:25px;
+}
+
+nav li{
+    display:black;
+    color:black;
+}
+nav a{
+    color:turquoise;
+    text-decoration:none;
+}
+nav a:hover{
+    color: black;
+}
+
+.landscape-image{
+    background-image:url("../images/landscape.jpg");
+    background-size:cover;
+    height:100%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+h1{
+    color:turquoise;
+    text-align: center;
+    position: absolute;
+    top:25%;
+    left: 50px;
+}
+#side{
+    width:30%;
+    float:left;
+}
+
+#my-info{
+    padding-left: 0px;
+    padding-right: 50px;
+    text-align: center;
+    color:honeydew
+}
+
+#contact{
+    padding-left: 25px;
+}
+#contactinfo{
+    padding-left: 45px;
+}
+.me-image{
+    float: left;
+    padding-left: 150px;
+    padding-top: 120px;
+}
+ol{ 
+    text-align: center;
+    float: right;
+    position:absolute;
+
+
+    left: 35%;
+    padding-right:45px;
+    padding-bottom: 400px;
+}
